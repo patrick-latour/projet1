@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="imgResto">
+        <img src="/IMG/resume-flou-defocused-restaurant-cafe-cafe-interieur-du-cafe.jpg" alt="image-restaurant" width="1920px">
+    </div>
+    <div class="navBar">
+        <nav>
+            <a href="/index.html">Accueil</a> |
+            <a href="/notreCarte.html">Carte</a> |
+            <a href="/contact.html">Contact</a> 
+          </nav>
+    </div>
+    
+    <div>
+        <h1 id="titleResto">O'Bistro: le resto qu'il vous faut !</h1><br><br>
+        <h2 id="cuisineTrad">Une cuisine française traditionnelle en fonction des produits de saisons</h2>
+    </div>
+
+    <div id="formReserv">
+        <h2>Contact</h2><hr>
+        <form>
+            <input type="radio" id="madame" name="madame" value="madame">
+            <label for="pers">Madame</label>
+            <input type="radio" id="monsieur" name="madame" value="monsieur">
+            <label for="monsieur">Monsieur</label>
+            <input type="radio" id="madame" name="madame" value="autre">
+            <label for="pers">Autre</label><br><br>
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="" required>
+            <label for="name">Prénom:</label>
+            <input type="text" id="name" name=""><br><br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email"  name="email" value="">
+            <label for="tel">Téléphone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="(+33)" value=""><br><br><br>
+            <label for="reservation">Date de réservation:</label>
+            <input type="date" name="date" id="dateReserv">
+            <label for="reservation">Heure de réservation:</label>
+            <select name="nombrePerson" id="nombrePerson">
+                <option value="11">11h</option>
+                <option value="12">12h</option>
+                <option value="13">13h</option>
+                <option value="14">14h</option>
+                <option value="15">15h</option>
+                <option value="16">16h</option>
+                <option value="17">17h</option>
+                <option value="18">18h</option>
+                <option value="19">19h</option>
+                <option value="20">20h</option>
+                <option value="21">21h</option>
+            </select>
+            <br><br>
+            <label for="nombrePers">Nombre de personnes:</label> 
+            <select name="nombrePerson" id="nombrePerson">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10+</option>
+            </select><br><br>
+            <input type="submit" id="submit" name="Envoyer"value="submit"><br><br>
+          </form>
+    </div>
+
+    
+</body>
+</html>
